@@ -1,0 +1,164 @@
+:root {
+    --orange: #c09f31;
+    --white: #ffffff;
+    --black: #000000;
+    --turkish: #0c6d70; 
+}
+
+* {
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+
+body {
+    background: var(--orange);
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+}
+
+ul {
+    font-family: helvetica;
+}
+
+li {
+    list-style: circle;
+}
+  
+.list {
+    list-style: square;
+}
+
+.field.id input{
+    position: absolute;
+    top: 50px;
+    left: 770px;
+    height: 30px;
+    width: 25px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.field.id .placeholder{
+    position: absolute;
+    top: 35px;
+    left: 765px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.field.task input{
+    position: absolute;
+    top: 50px;
+    left: 820px;
+    height: 30px;
+    width: 340px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.field.task .placeholder{
+    position: absolute;
+    top: 35px;
+    left: 815px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.Feedback {
+    position: absolute;
+    top: 700px;
+    left: 10px;
+    height: 150px;
+    width: 500px;
+    color: var(--white);
+    border: none;
+    background-color: var(--turkish);
+}
+
+.FeedbackR .placeholder{
+    position: absolute;
+    top: 685px;
+    left: 10px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+
+.GETbtn {
+    position: absolute;
+    top: 100px;
+    left: 900px;
+    height: 50px;
+    width: 150px;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+.POSTbtn {
+    position: absolute;
+    top: 200px;
+    left: 900px;
+    height: 50px;
+    width: 150px;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+.PUTbtn {
+    position: absolute;
+    top: 300px;
+    left: 900px;
+    height: 50px;
+    width: 150px;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+.DONEbtn {
+    position: absolute;
+    top: 400px;
+    left: 900px;
+    height: 50px;
+    width: 150px;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+.DELETEbtn {
+    position: absolute;
+    top: 500px;
+    left: 900px;
+    height: 50px;
+    width: 150px;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+.CLEARbtn {
+    position: absolute;
+    top: 600px;
+    left: 900px;
+    height: 50px;
+    width: 150px;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+.btn:focus { outline-style: none; }
+
+.light-theme {
+    --bg: var(--orange);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+}
+  
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--orange);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+}
